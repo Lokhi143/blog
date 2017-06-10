@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  resources :subscribers
   resources :advertisements
   resources :authors
   devise_for :users
