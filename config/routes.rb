@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  resources :authors
   devise_for :users
   resources :articles, :categories, :comments
   root "articles#index"
